@@ -1,6 +1,7 @@
 import React from "react";
 
 import farmer from "./farmer.png";
+import meteor from "./meteor.jpeg";
 import background from "./background.png";
 export default class Economica extends React.Component {
   render() {
@@ -13,9 +14,9 @@ export default class Economica extends React.Component {
           <div className="row ">
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title text-muted">December 13, 2020 by Economics Club IITD</h5>
+                <h5 className="card-title text-muted">India's New Farm Bills: A Step Forward or Back?(2020)</h5>
                 <p className="card-text">
-                  India's New Farm Bills: A Step Forward or Back?(2020)
+                By Economics Club IITD
                 </p>
                 <p className="card-text">
                   <small className="text-muted">
@@ -31,7 +32,7 @@ export default class Economica extends React.Component {
                     Example:
                     Think of a large tomato sauce company (say Kissan). Currently, Kissan has to buy tomatoes using government-regulated Mandis wherein they have to give a certain commission to them. After this law, Kissan can directly ask some farmers to grow a certain quality of tomatoes in return of a pre-fixed price. The company might even choose to lend some money as well as some technical support to the farmer for better produce.
                     </p>
-                    <p><a href="https://economicaiitd.wordpress.com/2020/12/13/indias-new-farm-bills-a-step-forward-or-back/"> </a></p>  
+                    <p><a href="https://economicaiitd.wordpress.com/2020/12/13/indias-new-farm-bills-a-step-forward-or-back/">Read More</a></p>  
                   </small>
                 </p>
               </div>
@@ -42,7 +43,7 @@ export default class Economica extends React.Component {
           </div>
         </div>
 
-        <div className="card mb-4">
+        {/* <div className="card mb-4">
           <div className="row ">
             <div className="col-md-8">
               <div className="card-body">
@@ -59,8 +60,11 @@ export default class Economica extends React.Component {
                 </p>
               </div>
             </div>
+            <div className="col-md-4">
+              <img src={meteor} className="card-img" alt="img-here" />
+            </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid-container">
           {/* <div className="item card sado">
