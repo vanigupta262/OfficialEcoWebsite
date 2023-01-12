@@ -36,7 +36,7 @@ export default class Hero extends React.Component {
                 <div className="row p-5">
                     <div className="col-lg-8 text-col align-items-start">
                         <h1 className="heading text-start text-uppercase">
-                            Economics &amp; Club
+                            Economics Club
                         </h1>
                         <h2 className="heading text-start">IIT DELHI</h2>
                         <p className="lead body-text text-start">
