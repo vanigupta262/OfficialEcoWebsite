@@ -13,15 +13,21 @@ export default class Economica extends React.Component {
           <div className="row ">
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title text-muted">BY SUSHANK MISHRA</h5>
+                <h5 className="card-title text-muted">December 13, 2020 by Economics Club IITD</h5>
                 <p className="card-text">
                   India's New Farm Bills: A Step Forward or Back?(2020)
                 </p>
                 <p className="card-text">
                   <small className="text-muted">
-                    By Haritha K (Miranda House) &amp; Vedanshi Maheshwari (IIT-Delhi)
-                    Free and fair elections have become the very watchdog of democracy
-                    all over the world.
+                    Recently the Government of India passed three historic legislation aimed at how the agricultural sector is financed, sold and stored. Following is a brief introduction of each bill, followed by its impact on various stakeholders:
+
+The Farmers’ (Empowerment and Protection) Agreement on Price Assurance and Farm Services Bill 
+
+This bill aims to devise a framework to facilitate contractual farming. This means that agribusiness firms, wholesalers or exporters can now directly enter into a collaboration with farmers and decide crop prices before the sowing process, in exchange for an exclusive right over the produce after the harvest. 
+
+Example:
+
+Think of a large tomato sauce company (say Kissan). Currently, Kissan has to buy tomatoes using government-regulated Mandis wherein they have to give a certain commission to them. After this law, Kissan can directly ask some farmers to grow a certain quality of tomatoes in return of a pre-fixed price. The company might even choose to lend some money as well as some technical support to the farmer for better produce.
                   </small>
                 </p>
               </div>
