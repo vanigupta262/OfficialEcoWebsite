@@ -23,15 +23,21 @@ export default class EventsTimeline extends React.Component {
     render() {
         return (
             <Fragment>
-                <p className="display-4">Week 1</p>
-                <Timeline>
-                    {map(this.week1, this.RenderEvent)}
-                </Timeline>
+                <div className="card p-3 shadow bg-body rounded">
+                    <p className="display-4 card-title">Week 1</p>
 
-                <p className="display-4 mt-5">Week 2</p>
-                <Timeline>
-                    {map(this.week2, this.RenderEvent)}
-                </Timeline>
+                    <Timeline>
+                        {map(this.week1, this.RenderEvent)}
+                    </Timeline>
+                </div>
+
+                <div className="card p-3 mt-3 shadow bg-body rounded">
+                    <p className="display-4">Week 2</p>
+                    <Timeline>
+                        {map(this.week2, this.RenderEvent)}
+                    </Timeline>
+                </div>
+
             </Fragment>
         );
     }
