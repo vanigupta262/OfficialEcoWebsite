@@ -9076,6 +9076,7 @@ h1, h2, h3, h4, h5,
   z-index: 3;
   padding: 0;
   box-shadow: 0px 5px 20px -17px rgba(0, 0, 0, 0.34);
+  border-bottom: #202020 solid 2px;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {

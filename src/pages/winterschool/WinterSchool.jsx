@@ -7,7 +7,7 @@ import EventsTimeline from "./Timeline/EventsTimeline";
 import optiver_logo from "./media/optiverlogo.png";
 import optiver_logo_2 from "./media/optiver_black.png";
 import eco_logo from "media/eco.png";
-import Header from "components/header2 copy/header";
+import Header from "components/header2/header";
 class StickyNavigation {
 	constructor() {
 		this.currentId = null;
@@ -100,7 +100,7 @@ export default class WinterSchool extends React.Component {
 								<h3>Presents</h3>
 
 								<br></br>
-								<h1>WINTER SCHOOL 2023</h1>
+								<h1 className="animated-text">WINTER SCHOOL 2023</h1>
 								<br></br>
 								<h3>Sponsored by</h3>
 								<br></br>
@@ -153,11 +153,10 @@ export default class WinterSchool extends React.Component {
 
 						<section className="et-slide" id={this.sectionIds[2]}>
 							<a href="https://unstop.com/workshop/quantitative-trading-winter-school-indian-institute-of-technology-iit-delhi-585723" target="_blank">
-								<div class="frame"><button class = "custom-btn btn-12"><span>To Register</span><span>Click Here</span></button>
-								</div>
+								<p className="display-5 animated-link">Register</p>
 							</a>
 							<br></br>
-							<p className="h3 text-muted">To register for the 2-week immersive online program</p>
+							<p className="h3 text-muted">On Unstop platform now!</p>
 
 						</section>
 
