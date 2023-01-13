@@ -1,18 +1,25 @@
 import React from "react";
 import "./Hero.css";
-
+import am from "./amsterdam.jpg";
 import p5 from "p5";
+
+import optiver_logo from "./optiverlogo.png";
+import optiver_logo_2 from "./optiver_black.png";
+import eco_logo from "media/eco.png";
 import TOPOLOGY from "vanta/dist/vanta.topology.min.js";
 import DOTS from "vanta/dist/vanta.dots.min.js";
 import RINGS from "vanta/dist/vanta.rings.min.js";
 import HALO from "vanta/dist/vanta.halo.min.js";
 
 export default class Hero extends React.Component {
+
+
     constructor() {
         super()
         this.vantaRef = React.createRef()
 
-    }
+          };  
+
     componentDidMount() {
         this.vantaEffect = TOPOLOGY({
             el: this.vantaRef.current,
@@ -32,7 +39,60 @@ export default class Hero extends React.Component {
 
     render() {
         return (
-            <div className=" text-center bg-image vanta-canvas" ref={this.vantaRef}>
+            <>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+    <div className="content mb-5 mt-5 pb-5 " align="center"  >
+                                    {/* <div class="d-flex justify-content-center">
+                                    <div><img src={eco_logo} alt="Economics Club IIT Delhi" width={100} /></div>
+                                    <div><h1>Economics Club IITD</h1></div>
+                                    </div>
+                                    <h6>Presents</h6> */}
+                                    <h1>WINTER SCHOOL 2023</h1>
+                                    <h6>Sponsored by</h6>
+                                    <img src={optiver_logo_2} alt="Optiver" width={200} />
+                                    <br></br>
+                                    <br></br>
+                                    <br></br>
+                                    <a href="https://unstop.com/workshop/quantitative-trading-winter-school-indian-institute-of-technology-iit-delhi-585723"><button type="button" class="btn btn-success">Register Here</button></a>
+                                    <br></br>
+                                    
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+    <div className=" content mb-5 mt-5 pt-4 pb-3" align="center" width="100%" height ='' >
+        <div class="frame"><button class="custom-btn btn-5">Click me!</button>
+        <br></br>
+        <br></br>
+        <h4><div class="text-muted">To know more about Winter School</div></h4>
+        <br></br>
+        <br></br>
+
+        </div>
+        
+    </div></div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+<div className=" text-center bg-image vanta-canvas" ref={this.vantaRef}>
                 <div className="row p-5">
                     <div className="col-lg-8 text-col align-items-start">
                         <h1 className="heading text-start text-uppercase">
@@ -58,7 +118,10 @@ export default class Hero extends React.Component {
                     </div>
                 </div>
             </div>
-
+            
+            </>
         )
     }
 }
+
+

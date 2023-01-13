@@ -90,13 +90,20 @@ export default class WinterSchool extends React.Component {
 				<div className="hero-container">
 					{/* Hero */}
 					<div className="bg-el">
+					
 						<section className="et-hero-tabs">
-							<div className="content mb-5">
-								<img src={eco_logo} alt="Economics Club IIT Delhi" width={200} />
+							<div className="container mb-5 mt-0 ">
+							
+								<img src={eco_logo} alt="Economics Club IIT Delhi" width='20%' />
+								<br></br>
 								<h3>Presents</h3>
+								<br></br>
+								<br></br>
 								<h1>WINTER SCHOOL 2023</h1>
+								<br></br>
+								<br></br>
 								<h3>Sponsored by</h3>
-								<img src={optiver_logo_2} alt="Optiver" width={200} />
+								<img src={optiver_logo_2} alt="Optiver" width='20%' />
 							</div>
 
 
@@ -118,12 +125,13 @@ export default class WinterSchool extends React.Component {
 					{/* Main */}
 					<main className="et-main">
 						<section className="et-slide" id={this.sectionIds[0]}>
+						<div class="container">
 							<div className="content mt-5 mb-5">
 								<p className="display-5 pt-4 px-5">A one-stop solution
 									for resolving the
-									mysteries of <span className="text-light bg-dark">Quantitative Trading</span>
+									mysteries of <span className="text-light badge badge-dark">Quantitative Trading</span>
 								</p>
-
+								<br></br>
 								<p className="lead px-2	pt-2">
 									We wish to enable tech-driven students from India
 									with a high quantitative aptitude to pursue
@@ -134,6 +142,7 @@ export default class WinterSchool extends React.Component {
 									highly coveted internships and new grad roles.
 								</p>
 							</div>
+						</div>
 
 						</section>
 
@@ -143,8 +152,10 @@ export default class WinterSchool extends React.Component {
 
 						<section className="et-slide" id={this.sectionIds[2]}>
 							<a href="https://unstop.com/workshop/quantitative-trading-winter-school-indian-institute-of-technology-iit-delhi-585723" target="_blank">
-								<p className="display-5 clickButton">Click Here</p>
+								<div class="frame"><button class = "custom-btn btn-12"><span>To Register</span><span>Click Here</span></button>
+								</div>
 							</a>
+							<br></br>
 							<p className="h3 text-muted">To register for the 2-week immersive online program</p>
 
 						</section>

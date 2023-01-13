@@ -59,12 +59,12 @@ export default class Header extends React.Component {
                     </div>
                 </div> */}
                 <nav
-                    className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+                    className="navbar  navbar-expand-sm my-0 py-0  navbar-dark ftco_navbar bg-dark ftco-navbar-light"
                     id="ftco-navbar"
                 >
                     <div className="container">
                         <a className="navbar-brand" href="/">
-                            <img src={logo} alt="web-image" width="auto" height={80} />
+                            <img src={logo} alt="web-image" width="auto" height='30' /> Economics Club IITD
                         </a>
                         {/* <form action="#" className="searchform order-sm-start order-lg-last">
                             <div className="form-group d-flex">
