@@ -14,9 +14,16 @@ export default class EventsTimeline extends React.Component {
     week1 = [
         new EventData("Monday", "Abstractify Day 1", "Case Study Prompt to be Released"),
         new EventData("Tuesday","Keynote Session", "Financial Markets: The Backbone of Economy"),
+        new EventData("Thursday","Lecture: 1", "3 Key Elements for a successful Trading Strategy"),
+        new EventData("Friday","Lecture: 2", "Behavioral Decision Making in Trading"),
+        new EventData("Saturday","Auctionomics Day 1", "Auction Eventinvolving differentstyles and types of bidding"),
+        new EventData("Sunday","Auctionomics Day 2", "Auction Eventinvolving differentstyles and types of bidding"),
     ]
     week2 = [
-        new EventData("Tuesday", "Lecture 3", "Tech and Trading: Past Present and Future"),
+        new EventData("Tuesday", "Lecture: 3", "Tech and Trading: Past Present and Future"),
+        new EventData("Thursday", "Lecture: 4", "Life at Optiverand applying for an internship"),
+        new EventData("Staurday", "Abstractify: Finals", "Case presentation round"),
+        new EventData("Sunday", "Dalal Street", "Stock Market Simulation Competition"),
     ]
     //end
 
