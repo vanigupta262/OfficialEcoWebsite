@@ -69,7 +69,7 @@ export default class Hero extends React.Component {
         <div class="frame"><button class="custom-btn btn-5">Click me!</button>
         <br></br>
         <br></br>
-        <h4><div class="text-muted">To know more about Winter School</div></h4>
+        <h4><div class="text-muted">To know more about the Winter School</div></h4>
         <br></br>
         <br></br>
 
