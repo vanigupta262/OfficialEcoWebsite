@@ -44,6 +44,7 @@ export default class Hero extends React.Component {
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    {/* <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button> */}
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
@@ -65,19 +66,50 @@ export default class Hero extends React.Component {
                                     
         </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-    <div className=" content mb-5 mt-5 pt-4 pb-3" align="center" width="100%" height ='' >
-        <br></br>
-        <div class="frame"><a href="https://economicsclubiitd.in/winterschool"><button class="custom-btn btn-5">Click me!</button></a>
-        <br></br>
-        <br></br>
-        <h4><div class="text-muted">To know more about the Winter School</div></h4>
-        <br></br>
-        <br></br>
+    <div class="carousel-item" data-bs-interval="4000">
+        <div className=" content mb-5 mt-5 pt-4 pb-3" align="center" width="100%" height ='' >
+            <br></br>
+            <div class="frame"><a href="https://economicsclubiitd.in/winterschool"><button class="custom-btn btn-5">Click me!</button></a>
+            <br></br>
+            <br></br>
+            <h4><div class="text-muted">To know more about the Winter School</div></h4>
+            <br></br>
+            <br></br>
 
+            </div>
+            
         </div>
-        
-    </div></div>
+    </div>
+    {/* <div class="carousel-item">
+      
+            <div className=" text-center bg-image vanta-canvas" ref={this.vantaRef}>
+                        <div className="row p-5">
+                            <div className="col-lg-8 text-col align-items-start">
+                                <h1 className="heading text-start text-uppercase">
+                                    Economics Club
+                                </h1>
+                                <h2 className="heading text-start">IIT DELHI</h2>
+                                <p className="lead body-text text-start">
+                                    The primary challenge faced by a technical institute, at a time when
+                                    there is an increased inclination for people to move towards
+                                    entrepreneurship, is the lack of access to financial knowledge, which is
+                                    a prerequisite to implement ideas. Economics club, by the virtue of
+                                    dealing with subjects like economics and finance, is in the best
+                                    position to address this issue.
+                                </p>
+                                <div className="row align-items-start">
+                                    <a href="#" class="btn_custom btn_custom-1">
+                                        <svg>
+                                            <rect x="1" y="1" fill="none" width="100%" height="100%" rx={0} ry={0} />
+                                        </svg>
+                                        Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      
+    </div> */}
     
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -92,34 +124,33 @@ export default class Hero extends React.Component {
 
 
 
-
-
-<div className=" text-center bg-image vanta-canvas" ref={this.vantaRef}>
-                <div className="row p-5">
-                    <div className="col-lg-8 text-col align-items-start">
-                        <h1 className="heading text-start text-uppercase">
-                            Economics Club
-                        </h1>
-                        <h2 className="heading text-start">IIT DELHI</h2>
-                        <p className="lead body-text text-start">
-                            The primary challenge faced by a technical institute, at a time when
-                            there is an increased inclination for people to move towards
-                            entrepreneurship, is the lack of access to financial knowledge, which is
-                            a prerequisite to implement ideas. Economics club, by the virtue of
-                            dealing with subjects like economics and finance, is in the best
-                            position to address this issue.
-                        </p>
-                        <div className="row align-items-start">
-                            <a href="#" class="btn_custom btn_custom-1">
-                                <svg>
-                                    <rect x="1" y="1" fill="none" width="100%" height="100%" rx={0} ry={0} />
-                                </svg>
-                                Get Started
-                            </a>
+                    <div className=" text-center bg-image vanta-canvas" ref={this.vantaRef}>
+                        <div className="row p-5">
+                            <div className="col-lg-8 text-col align-items-start">
+                                <h1 className="heading text-start text-uppercase">
+                                    Economics Club
+                                </h1>
+                                <h2 className="heading text-start">IIT DELHI</h2>
+                                <p className="lead body-text text-start">
+                                    The primary challenge faced by a technical institute, at a time when
+                                    there is an increased inclination for people to move towards
+                                    entrepreneurship, is the lack of access to financial knowledge, which is
+                                    a prerequisite to implement ideas. Economics club, by the virtue of
+                                    dealing with subjects like economics and finance, is in the best
+                                    position to address this issue.
+                                </p>
+                                <div className="row align-items-start">
+                                    <a href="#" class="btn_custom btn_custom-1">
+                                        <svg>
+                                            <rect x="1" y="1" fill="none" width="100%" height="100%" rx={0} ry={0} />
+                                        </svg>
+                                        Get Started
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+
             
             </>
         )
