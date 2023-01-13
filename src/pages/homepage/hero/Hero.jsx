@@ -48,6 +48,7 @@ export default class Hero extends React.Component {
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
     <div className="content mb-5 mt-5 pb-5 " align="center"  >
+                                <br></br>
                                     {/* <div class="d-flex justify-content-center">
                                     <div><img src={eco_logo} alt="Economics Club IIT Delhi" width={100} /></div>
                                     <div><h1>Economics Club IITD</h1></div>
@@ -66,7 +67,8 @@ export default class Hero extends React.Component {
     </div>
     <div class="carousel-item" data-bs-interval="2000">
     <div className=" content mb-5 mt-5 pt-4 pb-3" align="center" width="100%" height ='' >
-        <div class="frame"><button class="custom-btn btn-5">Click me!</button>
+        <br></br>
+        <div class="frame"><a href="https://economicsclubiitd.in/winterschool"><button class="custom-btn btn-5">Click me!</button></a>
         <br></br>
         <br></br>
         <h4><div class="text-muted">To know more about the Winter School</div></h4>
