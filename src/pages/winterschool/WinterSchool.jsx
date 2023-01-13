@@ -94,7 +94,7 @@ export default class WinterSchool extends React.Component {
 						<section className="et-hero-tabs">
 							<div className="container mb-5 mt-0 ">
 							
-								<img src={eco_logo} alt="Economics Club IIT Delhi" width='20%' />
+								<img class="hero-img" src={eco_logo} alt="Economics Club IIT Delhi"  />
 								<br></br>
 								<br></br>
 								<h3>Presents</h3>
@@ -104,7 +104,7 @@ export default class WinterSchool extends React.Component {
 								<br></br>
 								<h3>Sponsored by</h3>
 								<br></br>
-								<img src={optiver_logo_2} alt="Optiver" width='20%' />
+								<img class="hero-img" src={optiver_logo_2} alt="Optiver" />
 							</div>
 
 

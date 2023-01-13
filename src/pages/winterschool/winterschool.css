@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+.hero-img{
+  width : 20vmax;
+}
+
 .et-hero-tabs,
 .et-slide {
   display: flex;
@@ -860,3 +864,4 @@ background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
 .btn-16:active {
   top: 2px;
 }
+
