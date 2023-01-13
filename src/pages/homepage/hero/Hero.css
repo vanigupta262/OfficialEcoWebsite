@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.slide{
+  height: max-content;
+}
+
+
 .heading{
 
     font-family: 'Montserrat', sans-serif;
@@ -871,3 +877,4 @@
   .btn-16:active {
     top: 2px;
   }
+
