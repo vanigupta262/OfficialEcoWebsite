@@ -7,7 +7,7 @@ import EventsTimeline from "./Timeline/EventsTimeline";
 import optiver_logo from "./media/optiverlogo.png";
 import optiver_logo_2 from "./media/optiver_black.png";
 import eco_logo from "media/eco.png";
-import Header from "components/header2/header";
+import Header from "components/header2 copy/header";
 class StickyNavigation {
 	constructor() {
 		this.currentId = null;
@@ -96,13 +96,14 @@ export default class WinterSchool extends React.Component {
 							
 								<img src={eco_logo} alt="Economics Club IIT Delhi" width='20%' />
 								<br></br>
-								<h3>Presents</h3>
 								<br></br>
+								<h3>Presents</h3>
+
 								<br></br>
 								<h1>WINTER SCHOOL 2023</h1>
 								<br></br>
-								<br></br>
 								<h3>Sponsored by</h3>
+								<br></br>
 								<img src={optiver_logo_2} alt="Optiver" width='20%' />
 							</div>
 
