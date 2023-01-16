@@ -3,11 +3,12 @@ import React from "react";
 import $ from 'jquery';
 import "./winterschool.css";
 import EventsTimeline from "./Timeline/EventsTimeline";
-
+import Header from "components/header2/header";
+import Leaderboard from "./leaderboard/Leaderboard";
 import optiver_logo from "./media/optiverlogo.png";
 import optiver_logo_2 from "./media/optiver_black.png";
 import eco_logo from "media/eco.png";
-import Header from "components/header2/header";
+
 class StickyNavigation {
 	constructor() {
 		this.currentId = null;
@@ -87,6 +88,7 @@ export default class WinterSchool extends React.Component {
 		return (
 			<>
 				<Header />
+				<Leaderboard/>
 				<div className="hero-container">
 					{/* Hero */}
 					<div className="bg-el">
