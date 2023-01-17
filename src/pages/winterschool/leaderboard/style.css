@@ -41,8 +41,10 @@ Leaderboard
   counter-increment: leaderboard;
   padding: 18px 10px 18px 50px;
   cursor: pointer;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   transform: translateZ(0) scale(1, 1);
+  background: #c24448;
 }
 .leaderboard ol li::before {
   content: counter(leaderboard);
@@ -150,12 +152,10 @@ Leaderboard
 }
 .leaderboard ol li:nth-child(5) {
   background: #c24448;
-  border-radius: 0 0 10px 10px;
 }
 .leaderboard ol li:nth-child(5)::after {
   background: #c24448;
   box-shadow: 0 -2.5px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 0 0 10px 10px;
 }
 .leaderboard ol li:nth-child(5) mark::before, .leaderboard ol li:nth-child(5) mark::after {
   top: -9px;
@@ -187,6 +187,4 @@ Leaderboard
 }
 .the-most img {
   max-width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

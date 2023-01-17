@@ -60,8 +60,7 @@ Leaderboard
       cursor: pointer;
       backface-visibility: hidden;
       transform: translateZ(0) scale(1.0, 1.0);
-
-
+      background: #c24448;
       &::before {
         content: counter(leaderboard);
         position: absolute;
@@ -188,11 +187,11 @@ Leaderboard
 
       &:nth-child(5) {
         background: #c24448;
-        border-radius: 0 0 10px 10px;
+        // border-radius: 0 0 10px 10px;
         &::after {
           background: #c24448;
           box-shadow: 0 -2.5px 0 rgba(0, 0, 0, .12);
-          border-radius: 0 0 10px 10px;
+          // border-radius: 0 0 10px 10px;
         }
 
         & mark {
